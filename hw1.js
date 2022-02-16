@@ -16,16 +16,16 @@ fs.mkdir(path.join(__dirname, 'main', 'inPersone'), {recursive: true}, (err) => 
     console.log("Directory 'inPersone' created successfully ")
 })
 
-const onlineUsers = [{name: 'Oleg', age: 18, city: 'Lviv'}, {name: 'Ivan', age: 30, city: 'Sumy'}, {
-    name: 'Vasia',
+const onlineUsers = [{name: 'Misha', age: 26, city: 'Lviv'}, {name: 'Andrii', age: 13, city: 'Kirovohrad'}, {
+    name: 'Yarko',
     age: 18,
-    city: 'Rovno'
+    city: 'Kyiv'
 }];
 
-const inPersonUsers = [{name: 'Tania', age: 20, city: 'Gitomir'}, {name: 'Olia', age: 30, city: 'Kaniv'}, {
+const inPersonUsers = [{name: 'Alina', age: 22, city: 'Dnepr'}, {name: 'Olia', age: 30, city: 'Styi'}, {
     name: 'Ira',
     age: 23,
-    city: 'Yaremcha'
+    city: 'Bukovel'
 }];
 
 
@@ -71,9 +71,6 @@ for (let i = 0; i < inPersonUsers.length; i++) {
 //          console.log(err);
 //          throw err;
 //      }
-
-//як витягнути або тимчасово зберігти дані з data ??? За межами функції об"являв глобальну змінну. приводив до стрінги, але
-//видає помилку про типи даних
 
 //     fs.appendFile(path.join(__dirname, 'main', 'inPersone', 'person_users.txt'), data,{flag:'w'} ,err => {
 //         }
