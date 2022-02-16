@@ -1,0 +1,13 @@
+Name:Olia 
+ Age:30 
+ City:Kaniv 
+
+ Name:Ira 
+ Age:23 
+ City:Yaremcha 
+
+ Name:Tania 
+ Age:20 
+ City:Gitomir 
+
+ 

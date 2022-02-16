@@ -1,0 +1,13 @@
+Name:Oleg 
+ Age:18 
+ City:Lviv 
+
+ Name:Vasia 
+ Age:18 
+ City:Rovno 
+
+ Name:Ivan 
+ Age:30 
+ City:Sumy 
+
+ 
